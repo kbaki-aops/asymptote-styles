@@ -1,6 +1,6 @@
 import styles;
 
-size(15cm, 15cm);
+size(15cm);
 
 // basic strokes
 
