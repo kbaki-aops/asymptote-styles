@@ -1,3 +1,5 @@
+defaultpen(rgb("262626"));
+
 pen spRedStroke = rgb("f57e6e");
 pen spBlueStroke = rgb("62c5ce");
 pen spGreenStroke = rgb("a0cb46");
