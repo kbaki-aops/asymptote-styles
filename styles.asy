@@ -70,10 +70,10 @@ struct brush {
     this.font = font;
   }
 
-  autounravel pen operator cast(brush b) {
-    return b.stroke;
-  }
+}
 
+pen operator cast(brush b) {
+  return b.stroke;
 }
 
 brush spRed = brush(spRedFill, spRedStroke, spRedFont);
